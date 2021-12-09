@@ -1,0 +1,122 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+#userBlock{
+    /* background-color: black; */
+    height: 100vh;
+}
+#userBlock article{
+    display: flex;
+    height: 100vh;
+}
+/* left block */
+.userLeftBlock{
+    display: flex;
+    flex-basis: 20%;
+    height: 100vh;
+    background: black;
+}
+.logo{
+    padding: 25px;
+    color: white;
+}
+.logo svg{
+    fill: white;
+    height: 40px;
+}
+.leftcontent{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.leftcontent ul li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.692);
+    padding: 9px;
+     font-size:medium;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.692);
+    font-size: 15px;
+    font-weight: lighter;
+}
+.leftcontent a:nth-child(6){
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.692);
+    font-size: 5px;
+    font-weight: lighter;
+}
+.leftcontent ul li a:hover{
+    color: white;
+}
+.leftcontent ul li span i:hover{
+    color: white;
+}
+.nextContent ul li a:hover{
+    color: white;
+}
+.nextContent ul li span i:hover{
+    color: white;
+}
+/* cookies block*/
+ .nextContent{
+     display: flex;
+    justify-content:flex-start;
+    margin-top: 260px;
+ }
+.nextContent ul li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.692);
+    padding: 4px;
+    font-size: xx-small;
+}
+.line{
+    border-bottom: 0.1px thin rgba(65, 64, 64, 0.315);
+    width: 180%;
+}
+i{
+    font-weight:bold;  
+    font-size: medium; 
+}
+.next{
+    margin-top: 40px;
+}
+/* right block */
+.userRightBlock{
+    flex-basis: 80%;
+    height: 100vh;
+    background: rgba(8, 8, 8, 0.966);
+}
+.userRightBlock nav{
+    width: 100%;
+    background: black;
+    height: 60px;
+    display: flex;
+}
+.userRightBlock nav button{
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 170px;
+    height: 33px;
+    background: black;
+    color: rgba(255, 255, 255, 0.993);
+    margin-top: 10px;
+    margin-left: 800px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+     margin-right: 30px;
+}
+.userRightBlock nav h3{
+    /* width: 100%; */
+    background: black;
+    height: 60px;
+    display: flex;
+    color: white;
+    font-size: 13px;
+    justify-content: center;
+    padding-top: 20px;
+   
+}
