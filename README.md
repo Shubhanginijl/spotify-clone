@@ -1,2 +1,2 @@
-# spotify-clone
-this is my spotify clone app
+# Music application
+this is my music app
